@@ -1,6 +1,5 @@
 wordpress后台禁用Google Open Sans字体提高加载速度
 插件：Disable Google Fonts或Remove Open Sans font Link from WP core
 代码：打开wordpress代码中的文件wp-includes文件夹中的script-loader.php文件，搜索：fonts.googleapis.com找到这行代码：
-
 $open_sans_font_url = "//fonts.googleapis.com/css?family1=Open+Sans:300italic,400italic,600italic,300,400,600&subset=$subsets";
 把fonts.googleapis.com替换为fonts.useso.com，修改保存即可解决。几乎瞬间就可以拿到Google字体了。
