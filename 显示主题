@@ -1,0 +1,2 @@
+lnmp默认关闭了scandir函数，只要在/usr/local/php/etc修改php.ini文件即可
+找到disable_functions这一栏，然后删除这个scandir就可以开启了scandir这个函数了
